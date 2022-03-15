@@ -62,7 +62,7 @@ html{
     }
 }
 .main_header_left{
-    height: 70rem;
+    height: 53rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -95,7 +95,7 @@ html{
     box-shadow: 0 8px 6px -6px var(--main-color);
 }
 .main_header_right{
-    height: 70rem;
+    height: 53rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,6 +105,7 @@ html{
 }
 .main_header_right figure img{
     filter: drop-shadow(0 0.5rem 1rem black);
+    height: 400px;
 }
 
 .errimg img{
@@ -227,8 +228,8 @@ footer p{
     margin: 0;
     text-align: center;
     color: #fff;
-    line-height: 5rem;
-    font-size: 1.4rem;
+    line-height: 2.2rem;
+    font-size: 1.2rem;
 }
 @media(max-width: 768px){
     .main_header_left{
@@ -239,6 +240,12 @@ footer p{
     .main_header_right{
         height: auto;
         margin-top: 3rem ;
+    }
+    .temp_form{
+        width: auto;
+    }
+    .tempinformation{
+        width: auto;
     }
     
 }
